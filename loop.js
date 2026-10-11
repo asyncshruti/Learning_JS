@@ -48,3 +48,10 @@ let Student = {
 for (let key in Student) {
   console.log("key=", key, "value=", Student[key]);
 }
+
+//string
+//str.slice
+let str1 = "vishnu";
+console.log(str1.slice(1, 4));
+
+
