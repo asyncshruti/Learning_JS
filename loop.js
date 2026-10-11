@@ -25,3 +25,26 @@ do {
   console.log("j=", j);
   j++;
 } while (j <= 5);
+
+// for-of loop
+
+let str = "SouravShruti";
+
+let size = 0;
+for (let i of str) {
+  console.log("i=", i);
+  size++;
+}
+console.log("string size = ", size);
+
+// for-in loop
+
+let Student = {
+  name: "Shruti",
+  age: 20,
+  cgpa: 7.5,
+  isPass: true,
+};
+for (let key in Student) {
+  console.log("key=", key, "value=", Student[key]);
+}
