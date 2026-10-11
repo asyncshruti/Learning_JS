@@ -1,4 +1,2 @@
-//for of
-// for (let names of name) {
-//   console.log(name);
-// }
+console.log("hey! velora");
+//   console.log("Velora love Sourav");
