@@ -23,3 +23,29 @@ if (score >= 90 && score <= 100) {
 } else {
   console.log("grades = F");
 }
+
+//3. print all even numbers from 0 to 100.
+
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 == 0) {
+    console.log("i=", i);
+  }
+}
+
+/*4.Create a game where you start with any random game number. Ask the user to keep
+guessing the game number until the user enters correct value.*/
+
+// let num = prompt("enter a number");
+// if (num == 36) {
+//   console.log("correct", num);
+// } else {
+//   console.log("incorrect");
+// }
+
+let gameNum = 36;
+let userNum = prompt("Guess the game numner : ");
+
+while(userNum !== gameNum) {
+ userNum = prompt("u entered wrong number, guess again :");
+}
+console.log("congratulation, u entered the right number");
