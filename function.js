@@ -2,7 +2,7 @@ function myFunction() {
   console.log("hey! velora");
   console.log("Velora love Sourav");
 }
-myFunction("velora", "sourav");
+myFunction();
 
 //function ---2 number sum
 
