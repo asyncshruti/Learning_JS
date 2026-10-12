@@ -1,0 +1,12 @@
+#heading {
+    override-colors: purple;
+    color: rgb(146, 82, 92);
+    background-color: burlywood;
+
+}
+
+body{
+    background-color: aqua;
+}
+
+
