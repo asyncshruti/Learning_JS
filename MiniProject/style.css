@@ -7,11 +7,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(98, 106, 143);
+    background-color: rgb(51, 57, 85);
 }
 
 h1 {
-    background-color: #081b31;
+    background-color: #062445;
     color: #d09b9b;
     height: 5rem;
     line-height: 5rem;
@@ -64,8 +64,8 @@ h1 {
 }
 
 #msg {
-    background-color: #081b31;
-    color: #fff;
+    background-color: hsl(212, 22%, 27%);
+    color: #d3cdcd;
     font-size: 1.5rem;
     display: inline-block;
     padding: 1rem;
