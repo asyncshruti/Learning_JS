@@ -127,9 +127,6 @@ karanArjun2.__proto__ = employee;
 karanArjun3.__proto__ = employee;
 karanArjun4.__proto__ = employee;
 
-
-
-
 class ToyotaCar {
   start() {
     console.log("start");
